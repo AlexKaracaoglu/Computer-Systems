@@ -73,7 +73,7 @@ int main(int argc, char *argv[]){
                 int v2 = popValStack(valuePointer);
                 if (strcmp(j,"+") ==0)                  
                     sum = v1 + v2;
-                    pushValStack(valuePointer,product);          //SEGMENTATION FAULT
+                    pushValStack(valuePointer,product);
                 if (strcmp(j,"x") ==0)               
                     product = v1*v2;
                     pushValStack(valuePointer,product);
